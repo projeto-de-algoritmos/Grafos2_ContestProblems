@@ -13,13 +13,13 @@ void addEdge(int u, int v, int w)
   adj.push_back({w, {u, v}});
 }
 
-struct DisjointSets
+struct UnionFind
 {
   int *parent, *rnk;
   int n;
 
   // Constructor.
-  DisjointSets(int n)
+  UnionFind(int n)
   {
     // Allocate memory
     this->n = n;
@@ -75,7 +75,7 @@ int kruskalMST(int V)
   sort(adj.begin(), adj.end());
 
   // Create disjoint sets
-  DisjointSets ds(V);
+  UnionFind ds(V);
 
   // Iterate through all sorted edges
   vector<pair<int, ii>>::iterator it;
