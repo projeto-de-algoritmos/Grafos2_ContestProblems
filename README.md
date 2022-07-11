@@ -14,6 +14,15 @@ O projeto consiste em resolver problemas de maratonas/competições de programa�
 
 ## Screenshots
 
+### Questões accepted
+
+![As Aventuras do Calango Atômico](Screenshots/AsAventurasDoCalango/ac.png)
+
+![Desvio de Rota](Screenshots/DesvioDeRotaScreenshots/ac.png)
+
+![Reduzindo Detalhes em um Mapa](Screenshots/ReduzindoDetalhesScreenshots/ac.png)
+
+![Rede Ótica](Screenshots/RedeOtica/ac.png)
 
 ## Instalação 
 **Linguagem**: C++<br>
@@ -101,9 +110,9 @@ Dificuldade: 7.
 
 Problema da Olimpíada Brasileira de Informática 2000.
 
-Resolução: 
-* Esse problema consiste em determinar quais ramos devem ser construídos, de forma a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
-* Para resolver esse problema usamos o algorítmo de Kruskal, para gerar a arvore geradora mínima, e com isso poder determinar as arestas do grafo que representa a comunicação entre todas as tabas, cujo o impacto ambiental é mínimo.
+Resolução: Esse problema consiste em determinar quais ramos devem ser construídos, de forma a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
+
+Para resolver esse problema usamos o algorítmo de Kruskal, para gerar a arvore geradora mínima, e com isso poder determinar as arestas do grafo que representa a comunicação entre todas as tabas, cujo o impacto ambiental é mínimo.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
