@@ -126,5 +126,6 @@ Para resolver esse problema usamos o algoritmo de Kruskal, para gerar a árvore 
 
 ![Rede Ótica](Screenshots/RedeOtica/ac.png)
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Apresentação
+
+A apresentação está na raiz do repositorio [Apresentação de Grafos 2](./apresenta%C3%A7%C3%A3o.mp4)
