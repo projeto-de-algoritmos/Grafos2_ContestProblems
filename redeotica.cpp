@@ -1,5 +1,6 @@
 // Resolução do problema "Rede Ótica"
 // no site: https://www.beecrowd.com.br/judge/pt/problems/view/2190
+// Problema da OBI - Olimpíada Brasileira de Informática 2000
 #include <bits/stdc++.h>
 #define MAX 100100
 #define oo 1000000000001
