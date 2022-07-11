@@ -53,12 +53,17 @@ ou simplesmente compile e rode com um so comando
 
 ### As Aventuras do Calango Atômico - [link](https://www.beecrowd.com.br/judge/pt/problems/view/3119)
 
+![As Aventuras do Calango Atômico](Screenshots/AsAventurasDoCalango/questão.png)
+
 Dificuldade: 5
 
 Resolução: Esse problema tem sua dificuldade no fato de termos que somar o tempo que o Calango Atômico leva até chegar na Calanguete percorrendo algumas fases, visto que teremos um grafo por fase.
 Utilizamos o algoritmo de Dijkstra para descobrir o menor tempo do nó 1 até o último nó em todos os grafos e então somamos os tempos e mostramos a solução. 
 
 ### Desvio de Rota - [link](https://www.beecrowd.com.br/judge/pt/problems/view/1123)
+
+![Desvio de Rota](Screenshots/DesvioDeRotaScreenshots/questão.png)
+
 Dificuldade: 4.
 
 Problema da Maratona de Programação da SBC 2010.
@@ -80,6 +85,8 @@ Resolução:
 
 ### Reduzindo Detalhes em um Mapa - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2404)
 
+![Reduzindo Detalhes em um Mapa](Screenshots/ReduzindoDetalhesScreenshots/questão.png)
+
 Dificuldade: 3.
 
 Problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2.
@@ -87,6 +94,9 @@ Problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2.
 Resolução: Implemente o algoritmo de Prim.
 
 ### Rede Ótica - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2190)
+
+![Rede Ótica](Screenshots/RedeOtica/questão.png)
+
 Dificuldade: 7.
 
 Problema da Olimpíada Brasileira de Informática 2000.
