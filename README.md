@@ -24,7 +24,32 @@ O projeto consiste em resolver problemas de maratonas/competições de programa�
 - make >= 4.2.1;
 
 ## Uso 
+
 Existem dois arquivos para cada questão, um .cpp para a compilação e outro .txt em que há algum caso de teste designado para a questão.
+
+Para rodar qualquer uma das questões, primeiro entre na pasta da questão.
+
+```
+  cd ./nomeDaQuestão
+```
+
+Depois usando make compile o codigo da questão
+
+```
+  make build
+```
+
+Agora execute a questão com o binário gerado com o caso de teste exemplo.
+
+```
+  make run
+```
+
+ou simplesmente compile e rode com um so comando
+
+```
+  make
+```
 
 ### As Aventuras do Calango Atômico - [link](https://www.beecrowd.com.br/judge/pt/problems/view/3119)
 
@@ -54,18 +79,20 @@ Resolução:
 * A partir disso, pode-se usar o algoritmo de Dijkstra.
 
 ### Reduzindo Detalhes em um Mapa - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2404)
+
 Dificuldade: 3.
 
 Problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2.
 
-Como resolver: Implemente o algoritmo de Prim.
+Resolução: Implemente o algoritmo de Prim.
+
 ### Rede Ótica - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2190)
 Dificuldade: 7.
 
 Problema da Olimpíada Brasileira de Informática 2000.
 
 Resolução: 
-* Esse problema pede para determinar quais ramos devem ser construídos, de forma a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
+* Esse problema consiste em determinar quais ramos devem ser construídos, de forma a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
 * Para resolver esse problema usamos o algorítmo de Kruskal, para gerar a arvore geradora mínima, e com isso poder determinar as arestas do grafo que representa a comunicação entre todas as tabas, cujo o impacto ambiental é mínimo.
 
 ## Outros 
