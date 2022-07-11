@@ -21,13 +21,13 @@ O projeto consiste em resolver problemas de maratonas/competições de programa�
 ## Uso 
 Existem dois arquivos para cada questão, um .cpp para a compilação e outro .txt em que há algum caso de teste designado para a questão.
 
-### [As Aventuras do Calango Atômico](https://www.beecrowd.com.br/judge/pt/problems/view/3119)
+### As Aventuras do Calango Atômico - [link](https://www.beecrowd.com.br/judge/pt/problems/view/3119)
 Dificuldade: 5
 
 Resolução: Esse problema tem sua dificuldade no fato de termos que somar o tempo que o Calango Atômico leva até chegar na Calanguete percorrendo algumas fases, visto que teremos um grafo por fase.
 Utilizamos o algoritmo de Dijkstra para descobrir o menor tempo do nó 1 até o último nó em todos os grafos e então somamos os tempos e mostramos a solução. 
 
-### [Desvio de Rota](https://www.beecrowd.com.br/judge/pt/problems/view/1123)
+### Desvio de Rota - [link](https://www.beecrowd.com.br/judge/pt/problems/view/1123)
 Dificuldade: 4.
 
 Problema da Maratona de Programação da SBC 2010.
@@ -46,6 +46,13 @@ Como resolver:
     * caso algum deles seja menor do que C-1, deve-se fazer a ligação somente do maior para o menor
     * caso ambos sejam menores do que C-1, deve-se fazer a ligação do menor para o maior, mas somente se o maior for o próximo nó.
 * A partir disso, pode-se usar o algoritmo de Dijkstra.
+
+### Reduzindo Detalhes em um Mapa - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2404)
+Dificuldade: 3.
+
+Problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2.
+
+Como resolver: Implemente o algoritmo de Prim.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
