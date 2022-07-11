@@ -1,5 +1,5 @@
-// Resolução do problema "Rede Ótica"
-// no site: https://www.beecrowd.com.br/judge/pt/problems/view/2190
+// Resolução do problema "Reduzindo Detalhes em um Mapa"
+// no site: https://www.beecrowd.com.br/judge/pt/problems/view/2404
 // problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2
 #include <bits/stdc++.h>
 #define MAX 550
