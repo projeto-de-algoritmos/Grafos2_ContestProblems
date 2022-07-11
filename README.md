@@ -18,10 +18,16 @@ O projeto consiste em resolver problemas de maratonas/competições de programa�
 ## Instalação 
 **Linguagem**: C++<br>
 
+## Pré-requisitos:
+
+- g++ >= 9.4.0;
+- make >= 4.2.1;
+
 ## Uso 
 Existem dois arquivos para cada questão, um .cpp para a compilação e outro .txt em que há algum caso de teste designado para a questão.
 
 ### As Aventuras do Calango Atômico - [link](https://www.beecrowd.com.br/judge/pt/problems/view/3119)
+
 Dificuldade: 5
 
 Resolução: Esse problema tem sua dificuldade no fato de termos que somar o tempo que o Calango Atômico leva até chegar na Calanguete percorrendo algumas fases, visto que teremos um grafo por fase.
@@ -32,7 +38,7 @@ Dificuldade: 4.
 
 Problema da Maratona de Programação da SBC 2010.
 
-Como resolver: 
+Resolução: 
 * Esse problema é um pouco mais dificil, porque recebemos 7 tipos de  entradas:
     * N = a quantidade de nós do grafo não direcionado
     * M = a quantidade de arestas
@@ -53,6 +59,14 @@ Dificuldade: 3.
 Problema da OBI - Olimpíada Brasileira de Informática 2011 Fase 2 Nível 2.
 
 Como resolver: Implemente o algoritmo de Prim.
+### Rede Ótica - [link](https://www.beecrowd.com.br/judge/pt/problems/view/2190)
+Dificuldade: 7.
+
+Problema da Olimpíada Brasileira de Informática 2000.
+
+Resolução: 
+* Esse problema pede para determinar quais ramos devem ser construídos, de forma a possibilitar a comunicação entre todas as tabas, causando o menor impacto ambiental possível.
+* Para resolver esse problema usamos o algorítmo de Kruskal, para gerar a arvore geradora mínima, e com isso poder determinar as arestas do grafo que representa a comunicação entre todas as tabas, cujo o impacto ambiental é mínimo.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
